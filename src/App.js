@@ -1,13 +1,11 @@
 import React from "react";
+import ApodDisp from './components/ApodDisp';
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <ApodDisp />
     </div>
   );
 }
