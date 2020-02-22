@@ -1,14 +1,19 @@
 import React from "react";
+import ApodDisp from './components/ApodDisp';
 import "./App.css";
+import styled from 'styled-components'
+
+const ApodDiv = styled.div`
+  background: paleturquoise;
+  border: 5px inset lightseagreen;
+  margin: 3rem;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
-    </div>
+    <ApodDiv className="App">
+      <ApodDisp />
+    </ApodDiv>
   );
 }
 
